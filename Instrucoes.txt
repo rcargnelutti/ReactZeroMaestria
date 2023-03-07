@@ -23,7 +23,28 @@ GIT -------------------------------------------------------
 
 git init
 
+git status
+
 git add .
 
 git commit -m "primeiro commit"
+
+git remote add origin https://github.com/rcargnelutti/ReactZeroMaestria.git
+# origin = nome do repositório remoto
+
+git remote
+
+git remote origin
+
+git remote -v
+
+git push
+# push = enviar 
+
+git push --set-upstream origin master
+
+git push --set-upstream origin master -f
+# -f ignora tudo o que está no repositório remoto
+
+
 
