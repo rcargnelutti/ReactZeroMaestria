@@ -9,4 +9,8 @@ app.get('/', (req, res) => {
   res.send('Hello  World')
 });
 
+app.get('/ola', (req, res) => {
+  res.send('Oi eu sou a rota olá')
+});
+
 app.listen(PORT, HOST);
