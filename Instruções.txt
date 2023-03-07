@@ -1,0 +1,19 @@
+npm init -y
+
+touch index.js
+
+touch Dockerfile
+
+npm install express
+
+---
+
+https://www.youtube.com/watch?v=AVNADGzXrrQ
+
+docker build -t node_react_maestria .
+
+docker run -p 3000:3000 -d node_react_maestria
+
+npm install nodemon
+
+docker-compose up -d
