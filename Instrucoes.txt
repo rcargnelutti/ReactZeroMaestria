@@ -46,5 +46,18 @@ git push --set-upstream origin master
 git push --set-upstream origin master -f
 # -f ignora tudo o que está no repositório remoto
 
+git pull
+# pull = pegar/recupera o que está no repositório remoto do github
+
+Alterado arquivo direto no github
+
+git pull
+
+CLONANDO
+
+git clone git remote add origin https://github.com/rcargnelutti/ReactZeroMaestria.git
+
+
+https://www.gitkraken.com/download
 
 
