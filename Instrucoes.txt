@@ -55,7 +55,7 @@ git pull
 
 CLONANDO
 
-git clone git remote add origin https://github.com/rcargnelutti/ReactZeroMaestria.git
+git clone git https://github.com/rcargnelutti/ReactZeroMaestria.git
 
 
 https://www.gitkraken.com/download
