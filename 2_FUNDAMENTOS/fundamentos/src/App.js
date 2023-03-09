@@ -4,6 +4,7 @@ import FirstComponent from './components/FirstComponent';
 // styles / CSS
 import logo from './logo.svg';
 import './App.css';
+import TemplateExpressions from './components/TemplateExpressions';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </p>
         
         <FirstComponent />
+        <TemplateExpressions />
       </header>
       
     </div>
