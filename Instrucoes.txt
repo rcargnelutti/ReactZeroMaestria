@@ -61,3 +61,12 @@ git clone git https://github.com/rcargnelutti/ReactZeroMaestria.git
 https://www.gitkraken.com/download
 
 
+REACT -----------------------------------------------------
+
+# Notebook
+
+git clone https://github.com/rcargnelutti/ReactZeroMaestria.git
+
+npm install
+
+npm start ou caso necessário "npm install --force" ou se ainda não resolveu "npm install react-scripts"
