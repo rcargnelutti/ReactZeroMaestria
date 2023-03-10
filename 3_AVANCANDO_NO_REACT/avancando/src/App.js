@@ -4,6 +4,7 @@ import City from './assets/city.jpg'
 import CarDetails from './components/CarDetails';
 import ConditionalRender from './components/CondidionalRender';
 import Container from './components/Container';
+import ExecuteFunction from './components/ExecuteFunction';
 import Fragment from './components/Fragment';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
@@ -16,6 +17,10 @@ function App() {
     { id: 2, brand: "KIA", color: "Branco", newCar: false, km: 200000 },
     { id: 3, brand: "Renault", color: "Azul", newCar: false, km: 32000 },
   ];
+
+  function showMessage() {
+    console.log("Evento do componente pai");
+  }
 
   return (
     <div className="App">
@@ -63,6 +68,7 @@ function App() {
           <p>Eu também</p>
         </div>
       </Container>
+      <ExecuteFunction myFunction={showMessage} />
       </header>
     </div>
   );
