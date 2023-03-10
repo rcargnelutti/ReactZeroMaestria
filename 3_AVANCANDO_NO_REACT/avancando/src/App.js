@@ -3,6 +3,7 @@ import './App.css';
 import City from './assets/city.jpg'
 import CarDetails from './components/CarDetails';
 import ConditionalRender from './components/CondidionalRender';
+import Container from './components/Container';
 import Fragment from './components/Fragment';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
@@ -53,6 +54,15 @@ function App() {
         ))}
         {/* fragments */}
       <Fragment />
+      {/* children prop */}
+      <Container>
+        <p>Eu sou do componente superior</p>
+      </Container>
+      <Container>
+        <div>
+          <p>Eu também</p>
+        </div>
+      </Container>
       </header>
     </div>
   );
